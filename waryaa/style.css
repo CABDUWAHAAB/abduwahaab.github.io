@@ -1,0 +1,344 @@
+Background*/
+body {
+    margin:0px; padding:0px;
+    background-color:#f1e0d0;
+    font: 14px Helvetica, Arial, sans-sarif;
+    background: #f1e0d0 url('images/undraw.png') repeat-x;
+}
+
+a { text-decoration: none; color:#ef3e3c; }
+hr{border:0 #cccccc solid; border-top:-width:1px; clear:both; height:0;}
+a:hover { text-decoration: underline; }
+h1{font-size: 25px;}
+h2{font-size: 22px;}
+h3{font-size: 20px;}
+ol{list-style:decimal;}
+ul{list-style:square;}
+li{margin-left:15px;}
+p,dl,hr,h1,h2,h3,h4,h5,h6,ol,ul,pre,table,address,fieldset,{margin-bottom:10px}
+
+
+/*Main container*/
+#main {
+    width:960px;
+    margin: 0px auto;
+    min-height:500px;
+    text-align: center;
+}
+
+#header {
+    margin: 0 0;
+    float: left;
+    width: 960px;
+    text-align: left;
+    height: 100px;
+    background: url('images/waryaa.jpg') 250px 0px no-repeat;
+}
+
+/* Content container */
+#container {
+    background-color: #ffffff;
+    height: 300px;
+    text-align: left;
+    float: left;
+    border-radius: 10px;
+}
+
+#content {
+    float: left;
+    width: 645px;
+}
+
+#sidebar {
+    float: right;
+    width: 260px;
+    margin: 40px 50px 50px 5px;
+}
+
+h3{font-size: 24px; font-family: "Gabo", Arial, sans-sarif; color: #8ba790;}
+
+h3.subscribe {color:#ef3e3c;}
+
+#widget {
+    margin-bottom: 20px;
+    float: left;
+    overflow: hidden;
+}
+
+#footer {
+    float: left;
+    text-align: left;
+    width: 960px;
+    height: 100px;
+    clear: both;
+}
+
+#menu {
+    margin: 50px 0 0 0;
+    float: left;
+    width: 960px;
+    height: 30px;
+    position: absolute;
+}
+
+#search {
+    margin: 0 0 0 0;
+    float: right;
+    width: 200px;
+    height: 30px;
+}
+
+#logo {
+    margin: 15px 0 0 15px;
+    float: left;
+}
+
+#socialmedia-container {
+    margin: 40px 15px 0 0;
+    float: right;
+    width: 300px;
+}
+
+#twitter,#rss {
+    width: 150px;
+    float: left;
+    margin: 0;
+}
+
+#twitter img, #rss img { float:left; }
+
+#smtext {
+    margin: 0;
+    float: left;
+    margin: left: 10px;
+    line-height:0.9;
+    color: #000000;
+}
+
+.smquantify {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*style the main menu*/
+#menu {
+    margin: 135px 0 0 0;
+    float: left;
+    width: 960px;
+    height: 51px;
+    position: absolute;
+}
+
+#menuleft {
+    float: left;
+    width: 10px;
+    height: 51px;
+    background: url('images/background.jpg') no-repeat;
+    width: 720px;
+}
+
+#menuitems {
+    float: left;
+    background: url('images/background.jpg') repeat-x;
+    width: 720px;
+}
+
+#menuitems ul {
+    margin:0px;
+    padding:0px;
+}
+
+/*shows the menu devider on the left of the menu item*/
+#menuitems ul li {
+    display: inline;
+    height: 51px;
+    float: left;
+    list-style: none;
+    margin: 0 0px;
+    padding: 0px 30px 0px 30px;
+    background: url('images/background.jpg') no-repeat;
+    position: relative;
+}
+
+/*no devider on the first menuitem*/
+#menuitems .first {
+    background: none;
+}
+
+/*this code is needed to style the menu link and to give it a top margin*/
+#menuitems ul li a {
+    color: #ffffff;
+    font-weight: bold;
+    display: block;
+    margin-top: 18px;
+}
+
+/*search box within the menu area*/
+#searchright {
+    float: right;
+    background: url('images/background.jpg') no-repeat;
+    width: 10px;
+    height: 51px;
+}
+
+#search {
+    margin: 0 0 0 0;
+    float: right;
+    width: 220px;
+    height: 51px;
+    background: url('images/undraw.png') repeat-x;
+}
+
+#searchbox {
+    float: left;
+    margin: 6px 0px 6px 10px;
+    width: 190px;
+    height: 39px;
+    background: #ffffff;
+    line-height: 40px;
+    padding: 0 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px #cccccc inset;
+}
+
+/*Font Gabo @font-face techniek*/
+@font-face {
+    font-family: "Gabo";
+    src: unrl("types/gabo.eot");
+    src: local(" 😊"),
+    url("types/gabo.woff") format("woff"),
+    url("types/gabo.otf") format("opentype"),
+    url("types/gabo.svg#gabo") format("svg");
+}
+
+.meta {
+    font-size: 12px;
+    color: #9f9f9f;
+    font-style: italic;
+}
+
+.readon {
+    color: #000000;
+    font-size:16px;
+}
+
+/*Page navigation CSS*/
+#navigationbox {
+    width: 560px;
+    height: 50px;
+    position:relative;
+    margin:20px 0px 0px 0px;
+}
+
+.pagenavi {
+    display:table;
+    margin:0 0;
+    position:relative;
+}
+
+.pagenavi a, .pagenavi a:link {
+    display:block;
+    float:left;
+    text-align:center;
+    color:#f04b49;
+    font-weight:bold;
+    text-decoration:none;
+    padding:3px 8px;
+    margin: 1px 1px 20px 1px;
+    border:1px solid #219396;
+}
+
+.pagenavi a:hover {
+    border:2px solid #219396;
+    margin:0 0 19px 0;
+}
+
+.pagenavi span,pages {
+    padding:5px 8px 5px 0px;
+    float:left;
+    color: #219396;
+}
+
+.pagenavi span.current {
+    padding:3px 8px;
+    margin: 1px 1px 20px 1px;
+    border: 1px solid #219396;
+    background-color:#219396;
+    color:#FFF;
+    font-weight:bold;
+    float:left;
+}
+
+.pagenavi span.extend {
+    margin:1px 1px 20px;
+    padding:3px 8px;
+    background:none;
+    float:left;
+}
+
+input.email {
+    border: 2px solid #229397;
+    height: 35px;
+    width: 248px;
+    color: #999999;
+    text-align: left;
+    padding: 5px;
+}
+
+.btnsubscribe{
+    background-color: #E5A332;
+    text-align: left;
+    margin: 10px 0;
+    float: left;
+    width: 248px;
+    height: 57px;
+    outline: none;
+    border: none;
+    cursor : pointer;
+}
+
+a.arrow {
+    background: url('images/arrow.png') no-repeat;
+    margin: 0;
+    padding: 0 0 0 20px;
+    float: left;
+    color:#000000;
+    margin-bottom:10px;
+}
+
+#footer {
+    float: left;
+    text-align: left;
+    width: 960px;
+    clear: both;
+    margin: 15px 0px;
+}
+
+#footerwidgetleft {
+    float: left;
+    width: 405px;
+    margin: 0 0 0 50px;
+}
+
+#footerwidgetright {
+    float: left;
+    width: 405px;
+    margin: 0 0 0 50px;
+}
+
+#footer h3 {
+    color:#219397;
+    width: 100%;
+    border-bottom: solid 1px #c8c5a6;
+}
+
+#abdiright {
+    clear: both;
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 10px;
+    font-style: italic;
+}
